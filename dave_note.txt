@@ -1,0 +1,4 @@
+ways to respond to a request in node
+1. res.render() -- render a view template and send the resulting html to the browser
+2. res.redirect() -- tell the browser to issue another GET request
+3. res.json() -- send a JSON response (used when we communicate via AJAX)
